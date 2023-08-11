@@ -1,0 +1,730 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(9 9 57);
+}
+
+.sub {
+  width: 25rem;
+ 
+  background-color: white;
+  position: relative;
+ 
+  border-radius: 1.2rem;
+}
+
+.control {
+  position: relative;
+  top: 4rem;
+  font-size: 12.8px;
+
+}
+
+.text1 {
+  font-size: 1rem;
+}
+
+.texte {
+  margin-left: 1rem;
+  position: relative;
+  top: 1.4rem;
+}
+
+.text2 {
+  font-size: 0.8rem;
+  position: relative;
+  top: 0.4rem;
+}
+
+.image {
+  width: 13rem;
+  
+ 
+}
+
+.text3 {
+  color: rgb(255, 13, 13);
+  position: relative;
+  top: 1rem;
+  font-size: 0.7rem;
+  left: 17rem;
+}
+
+form {
+  margin-left: 2rem;
+}
+
+.civilite {
+  position: relative;
+  bottom: 1.4rem;
+}
+
+.second_radio {
+  position: relative;
+  left: 1.8rem;
+  align-items: center;
+}
+
+.test_radio {
+  position: relative;
+  left: 0.8rem;
+  text-align: center;
+}
+
+.test_center {
+  position: relative;
+  bottom: 0.2rem;
+}
+
+.start {
+  color: rgb(255, 13, 13);
+}
+
+#change {
+  position: relative;
+  bottom: 1rem;
+}
+
+.test_input {
+  border-radius: 2rem;
+  width: 20rem;
+  position: relative;
+  left: 0.4rem;
+  border: none;
+  box-shadow: 0px 0.1px 2.5px rgb(30 30 30);
+  height: 1.4rem;
+  top: 0.2rem;
+}
+
+.button {
+  position: relative;
+  top: 4rem;
+  left: 2.5rem;
+}
+
+#button_inc {
+  position: relative;
+  width: 20rem;
+  border-radius: 1rem;
+  border: none;
+  height: 1.7rem;
+  background-color: rgb(9 9 57);
+  color: #fff;
+  bottom: 4rem;
+  left: -2.1rem;
+}
+
+.option1 {
+  color: rgb(255, 13, 13);
+  font-size: 0.7rem;
+  position: relative;
+  left: 1rem;
+}
+
+#list {
+  width: 2rem;
+}
+
+option[value="Veuillez choisir..."] {
+  color: red;
+}
+
+#hid {
+  display: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 768px) {
+  .sub {
+    
+    width: 90%;
+    height: auto;
+  }
+
+ 
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .sub {
+    width: 21rem;
+    height: 28.4rem;
+   
+   
+  }
+
+  .control {
+    font-size: 10px;
+  }
+
+  .image {
+    width: 14rem;
+    
+   
+  }
+
+  .text1 {
+    font-size: 0.8rem;
+  }
+
+  .text2 {
+    font-size: 0.6rem;
+  }
+
+  .text3 {
+   
+    font-size: 0.6rem;
+  }
+
+  #button_inc {
+    position: relative;
+    width: 17rem;
+    border-radius: 1rem;
+    border: none;
+    height: 1.7rem;
+    background-color: rgb(9 9 57);
+    color: #fff;
+    bottom: 4rem;
+   
+  }
+
+  .option1 {
+    font-size: 0.6rem;
+   
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sub {
+    width: 19rem;
+    height: 29.4rem;
+  
+  }
+
+  .control {
+    font-size: 9px;
+  }
+
+  .image {
+    width: 7rem;
+    
+  }
+
+  .text1 {
+    font-size: 0.7rem;
+  }
+
+  .text2 {
+    font-size: 0.6rem;
+}
+
+  .text3 {
+   
+    font-size: 0.7rem;
+}
+
+  .test_input {
+    width: 13rem;
+    font-size: 0.6rem;
+  }
+
+  .option1 {
+    font-size: 0.5rem;
+   
+  }
+
+ 
+
+  #button_inc {
+    width: 13rem;
+    height: 1.4rem;
+    font-size: 0.7rem;
+  
+   
+}
+}
+
+
+@media only screen and (max-width: 375px) {
+ .sub {
+    width: 76%;
+    height: 27rem;
+  
+    border-radius: 1rem;
+    top: 22rem;
+}
+.image {
+    width: 65%;
+  
+    
+}
+
+.text3 {
+
+  font-size: 0.7rem;
+}
+
+#button_inc {
+  width: 18rem;
+    height: 1.4rem;
+    font-size: 0.7rem;
+   
+   
+}
+
+
+ 
+
+  .test_input {
+    border-radius: 2rem;
+    width: 19rem;
+    position: relative;
+    
+    border: none;
+    box-shadow: 0px 0.1px 2.5px rgb(30 30 30);
+    height: 1.4rem;
+    
+}
+
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-width: 1440px) {
+  .sub {
+    width: 29rem;
+    height: 31.8rem;
+   
+   
+}
+
+
+.image {
+  width: 18rem;
+
+  
+}
+
+
+
+  
+
+  #button_inc {
+    width: 25rem;
+   
+  }
+
+  
+
+  .test_input {
+    border-radius: 2rem;
+    width: 25rem;
+    position: relative;
+   
+    border: none;
+    box-shadow: 0px 0.1px 2.5px rgb(30 30 30);
+    height: 1.4rem;
+   
+  }
+
+}
+.button {
+  position: relative;
+  
+ 
+}
+
+
+@media only screen and (max-width: 480px) {
+  .sub {
+    width: 90%;
+    height: auto;
+  
+  }
+  
+  .control {
+    font-size: 8px;
+   
+  }
+  
+  .image {
+    width: 7rem;
+   
+    
+  }
+  
+  .text1 {
+    font-size: 0.7rem;
+  }
+  
+  .text2 {
+    font-size: 0.6rem;
+  }
+  
+  .text3 {
+    font-size: 0.6rem;
+  
+  }
+  
+  #button_inc {
+    width: 80%;
+   
+   
+  }
+  
+  .option1 {
+    font-size: 0.5rem;
+  
+  }
+  
+  
+  
+  
+  
+  .test_input {
+    width: 80%;
+    font-size: 0.6rem;
+   
+  }
+}
+@media only screen and (max-width: 996px) and (min-width: 788px) {
+  .sub {
+    width: 23rem;
+    height: 28rem;
+  
+    
+}
+  
+
+  .control {
+    font-size: 10px;
+  }
+
+  .image {
+    width: 14rem;
+   
+    
+}
+
+  .text1 {
+    font-size: 0.7rem;
+  }
+
+  .text2 {
+    font-size: 0.6rem;
+  }
+
+  .text3 {
+   
+    font-size: 0.7rem;
+  }
+
+  #button_inc {
+    
+    width: 21rem;
+    border-radius: 1rem;
+    border: none;
+    height: 1.7rem;
+    background-color: rgb(9 9 57);
+    color: #fff;
+   
+  
+  }
+
+  .option1 {
+    font-size: 0.6rem;
+   
+  }
+}
+@media only screen and (max-width: 478px)
+ {
+  .sub {
+    width: 64%;
+    height: 27rem;
+   
+    top: 16rem;
+}
+
+  .civilite {
+    
+    font-size: 0.7rem;
+}
+
+  .control {
+    font-size: 8px;
+    top: 3rem;
+  }
+  
+  .image {
+    width: 13rem;
+    /* margin-left: 22%; */
+   
+  
+}
+  
+  .text1 {
+    font-size: 0.7rem;
+  }
+  
+  .text2 {
+    font-size: 0.6rem;
+  }
+  
+  .text3 {
+    font-size: 0.7rem;
+  
+    
+}
+
+  
+  #button_inc {
+    width: 80%;
+   
+    
+}
+
+
+  
+  .option1 {
+    font-size: 0.5rem;
+    
+  }
+  
+  
+  
+  
+  
+  .test_input {
+    width: 80%;
+    font-size: 0.6rem;
+  
+  }
+}
+@media only screen and (max-width: 284px)
+ {
+  .sub {
+    width: 64%;
+    height: 27rem;
+   
+}
+
+  .civilite {
+   
+   
+    font-size: 0.7rem;
+}
+
+  .control {
+    font-size: 8px;
+   
+  }
+  
+  .image {
+    width: 13rem;
+    /* margin-left: 22%; */
+    
+   
+}
+  
+  .text1 {
+    font-size: 0.7rem;
+  }
+  
+  .text2 {
+    font-size: 0.6rem;
+  }
+  
+  .text3 {
+    font-size: 0.7rem;
+   
+}
+
+  
+  #button_inc {
+    width: 80%;
+   
+   
+}
+
+
+  
+  .option1 {
+    font-size: 0.5rem;
+   
+  }
+  
+  
+  
+ 
+  
+  .test_input {
+    width: 80%;
+    font-size: 0.6rem;
+   
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .sub {
+    width: 29rem;
+    height: 32.8rem;
+   
+    
+}
+
+.image {
+  width: 16rem;
+  
+  
+}
+
+  
+
+  #button_inc {
+    width: 25rem;
+  
+  }
+
+  
+
+  .test_input {
+    border-radius: 2rem;
+    width: 25rem;
+    position: relative;
+   
+    border: none;
+    box-shadow: 0px 0.1px 2.5px rgb(30 30 30);
+    height: 1.4rem;
+   
+  }
+
+}
+@media only screen and (max-width: 375px) {
+  .sub {
+    width: 18rem;
+    height: 25.8rem;
+   
+   
+}
+
+.image {
+  width: 10rem;
+  
+}
+
+
+
+#button_inc {
+  width: 15rem;
+ 
+}
+
+  
+  .test_input {
+    border-radius: 2rem;
+    width: 15rem;
+    position: relative;
+   
+    border: none;
+    box-shadow: 0px 0.1px 2.5px rgb(30 30 30);
+    height: 1.4rem;
+    
+}
+}
+@media only screen and (max-width: 412px) {
+  .sub {
+    width: 20rem;
+    height: 25.8rem;
+   
+}
+
+.image {
+  width: 10rem;
+  
+ 
+}
+
+.text3 {
+  
+  font-size: 0.6rem;
+}
+
+#button_inc {
+  width: 15rem;
+ 
+}
+
+ 
+
+  .test_input {
+    border-radius: 2rem;
+    width: 15rem;
+   
+   
+    border: none;
+    box-shadow: 0px 0.1px 2.5px rgb(30 30 30);
+    height: 1.4rem;
+   
+}
+.civilite {
+ 
+  font-size: 0.6rem;
+}
+}
+@media only screen and (max-width: 414px) {
+  .sub {
+    width: 20rem;
+    height: 25.8rem;
+    
+    
+}
+
+.image {
+  width: 10rem;
+  
+  
+}
+
+.text3 {
+  
+  font-size: 0.6rem;
+}
+
+#button_inc {
+  width: 15rem;
+ 
+}
+
+  
+
+  .test_input {
+    border-radius: 2rem;
+    width: 15rem;
+    position: relative;
+  
+    border: none;
+    box-shadow: 0px 0.1px 2.5px rgb(30 30 30);
+    height: 1.4rem;
+   
+}
+.civilite {
+  
+ 
+  font-size: 0.6rem;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
